@@ -22,7 +22,7 @@ $("document").ready(function(){
     
     $("#hugeImage").bind("click", hugeImage);
     
-    $("#math").accordion({header: h4});
+    $("#numbers").accordion({ header: "h4" });
 });
 
 function alertButtonClick(){
